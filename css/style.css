@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-repeat: no-repeat;
+ 	background-position: top;
+	background-image: url(../img/23DX.gif);
+	background-size: cover;
+	height: 800px;
+    font-family: 'Press Start 2P';
+
+}
+header {
+    margin: 30px;
+
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+.dws-menu >ul li a{
+display: block;
+background: #65d6b0;
+padding: 15px 30px 15px 40px;
+font-size: 22px;
+font-style: oblique;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 0.6s ease;
+}
+.dws-menu > ul li {
+    position: relative;
+    border-right: 9px solid red;
+}
+.dws-menu > ul li > a i.fas{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-size: 25px;
+}
+.dws-menu > ul li:first-child {
+    border-left: 7px solid rgb(255, 0, 0);
+}
+.dws-menu > ul li:last-child {
+    border-right: 7px solid red;
+}
+.dws-menu li a:hover {
+    background: rgb(198, 19, 204);
+    color: blue;
+    box-shadow: -0.10px 4px 50px -5px pink ;
+    transition: all 0.6s ease;
+    
+
+}
+
+/* Саб меню */
+.dws-menu li ul {
+    position: absolute;
+    min-width: 160px;
+    display: none;
+}
+.dws-menu li > ul li {
+    border: 6px solid red;
+}
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #3f9e7e;
+    font-size: 15px;
+}
+.dws-menu li > ul li ul {
+    position: absolute;
+    right: -210px;
+    top: 0;
+
+}
+.dws-menu li:hover > ul {
+    display: block;
+
+}
+.dws-menu li p {
+    color: rgb(234, 0, 255);
+}
+.dws-menu ul li g {
+    color: rgb(238, 255, 0);
+}
+
+
+.dws-menu li>ul li ul Gosha {
+    position: absolute;
+    width: 210px;
+    right: -0px;
+    top: 0;
+
+}.dws-menu li>ul li ul Stepan {
+    position: absolute;
+    width: 210px;
+    right: -0px;
+    top: 0;
+
+}
+.dws-menu li>ul li ul Vlad {
+    position: absolute;
+    width: 225px;
+    right: -15px;
+    top: 0;
+
+}
+.dws-menu li>ul li ul Denis {
+    position: absolute;
+    width: 225px;
+    right: -10px;
+    top: 0;
+
+}
+.dws-menu li>ul li ul Sanya {
+    position: absolute;
+    width: 220px;
+    right: -10px;
+    top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+        
+    
